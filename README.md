@@ -1,4 +1,4 @@
-##Appointment manager min library
+##Appointment manager min JS library
 #What the libary does
 Generate calendar days for current month<br />
 Add appointment to calendar items starting from today or after<br />
