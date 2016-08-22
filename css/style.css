@@ -1,0 +1,57 @@
+/*css for example run*/
+.container{
+    width: 900px;
+    margin:  0 auto;    
+}
+.calendar-wrapper{   
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 16px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+ul li{
+    width: 11.28571428571429%;
+    float: left;
+    height: 100px;
+     border: 1px solid #333;
+    padding: 5px 1%;
+    cursor: pointer;
+    position: relative;
+}
+ul li:hover{
+    background: #000;
+    color: #fff;
+}
+ul li.active{
+    background: red;
+    color: #fff;
+}
+ul li.disabled{
+    background: #eee;
+}
+ul li em,
+ul li span{
+    display: block;
+}
+ul li .del{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #000;
+    color: #fff;
+    line-height: 16px;
+    text-align: center;
+    cursor: default;
+    font-size: 10px;
+    top: 5px;
+    right: 5px;
+    border-radius: 10px;
+    display: block;
+}
